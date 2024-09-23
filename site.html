@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Acceuil</title>
+</head>
+<body>
+    <h1>Tiago</h1>
+    <img src="cover-r4x3w1200-5c066d58ce067-homo-georgicus.jpg" width="250px" height="250px"
+    alt="photo de profil de Tiago"/>
+    <table border = "5">
+      <caption>
+          informations de contact:
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">adresse mail</th>
+          <th scope="col">tiago@gmail.com</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">numéro de téléphone</th>
+          <td>06 45 58 74 30</td>
+        </tr>
+        <tr>
+          <th scope="row">Localisation</th>
+          <td>Nice </td>
+        </tr>
+      </tbody>
+    </table>
+  <section class="container1">
+    <h2>CV</h2>
+    <section>
+        <h3> Frise de votre scolarité</h3>
+        <ol class="container1">
+            <li>école primaire : école primaire de la Lanterne</li>
+            <li>collège : collège Port Lympia</li>
+        <li>lycée : Lycée Masséna</li>
+        </ol>
+        <h3> Mes expériences:</h3>
+        <ul>
+            <li>Installateur en froid et conditionnement d'air (frigoriste)</li>
+            <li>Serrurier-métallier</li>
+        </ul>
+        <h3>Mes compétences</h3>
+        <ul>
+            <li>crochetage de cadenas</li>
+            <li>iron 1, 0 rr sur valorant</li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <aside>
+      <h2> Articles récents</h2>
+      </aside>
+      <header class="wrapper">
+        <div class="container">
+        <nav>
+          <a title="1er article" href="site2.html">article 1</a>
+          <iframe class="media"
+          src="site2.html"
+          width="200"
+          height="200"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </nav>
+        <nav>
+          <a title="2ème article" href="site3.html">article 2</a>
+          <iframe class="media"
+          src="site3.html"
+          width="200"
+          height="200"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </nav>
+        </div>
+      </header>
+    </section>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="fc72ce72-9631-499e-b335-b0d78a053c9d">
+        <div>
+            <label for=""name>Nom : </label>
+            <input type="text" name= "name" id="name" required />
+         </div>
+         <div>
+            <label for ="email" >Email : </label>
+            <input type="email" name="email" id="email" required />
+         </div>
+         <div>
+          <label for ="number" > number : </label>
+          <input type="number" name="number" id="number" required />
+       </div>
+       <div>
+        <textarea name="message" required></textarea>
+       </div>
+       <div>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+       </div>
+       <div>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+       </div>
+         <div>
+          <input type="submit" value="envoyer" class="case" />
+         </div>
+         <form>
+          <fieldset>
+            <legend> choisissez votre tranche d'âge</legend>
+
+            <input type="radio" id="age-0-18" name="age" value="child"/>
+            <label for="age-0-18">0-18</label>
+
+            <input type="radio" id="age-18-25" name="age" value="young"/>
+            <label for="age-18-25">18-25</label>
+
+            <input type="radio" id="age-+25" name="age" value="young"/>
+            <label for="age+25">+25</label>
+          </fieldset>
+         </form>
+
+         <label>
+          <input type="checkbox" id="recontacte" >
+          J'accepte d'être recontacté
+         </label>
+         <a href="#table">mot cacher</a>
+         <h4 id="table">coucou</h4>
+      </form>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+    background-color : var(--colorf) ;
+    font-family : Verdana, Geneva, tahoma,sans-serif;
+}
+
+p {
+    color :blueviolet;
+}
+
+:root{
+    --colorf:#D3D3D3;
+    --colorc:black;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+h2 ,h3{
+    text-align: center;
+    padding: 20px;
+    border: 3px solid var(--colorc);
+    border-radius: 20px;
+}
+
+header{
+    padding: center;
+}
+
+.image{
+    align-self: center;
+    display: flex;
+}
+
+article p {
+    color : blue
+
+}
+
+nav > a {
+    color : rgba(255,0,0,0.8);
+}
+
+input:required,:optional{
+    background-color: rgb(128,128,128);
+}
+
+input:Checked{
+    accent-color: green;
+}
+
+input:hover{
+    background-color: white;
+}
+.case:checked{
+    color: green;
+}
+
+section{
+    text-align: center;
+    padding: 20px;
+    border: 3px solid whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px rgb(120,120,150);
+    border-radius: 20px;
+}
+
+:target{
+    background: gold;
+    color: red;
+}
+
+article::before{
+    content:"->";
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+.contact{
+    color: gray;
+    background-color: gray;
+}
+
+h4 {
+    color: gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: center;
+    align-items: center;
+    justify-content: space-around
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin: center;
+    align-items: start;
+}
+
+iframe{
+    margin: center;
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper {
+    grid-column: 1; 
+    grid-row: 1 / 3;
+    background-color: rgb(255, 0, 0 ,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+
+@media (max-width: 480px){
+    article p {
+        color : red
+    }
+
+    section{
+        text-align: center;
+        padding: 10px;
+        border: 3px solid whitesmoke;
+        background-color: whitesmoke;
+    }
+
+    body {
+        background-color : var(--colorf) ;
+        font-family : Verdana, Geneva, tahoma,sans-serif;
+    }
+
+    iframe{
+        margin: center;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+@media (max-width: 768px){
+    article p {
+        color : violet
+    }
+
+    section{
+        text-align: center;
+        padding: 10px;
+        border: 3px solid whitesmoke;
+        background-color: whitesmoke;
+    }
+
+    body {
+        background-color : var(--colorf) ;
+        font-family : Verdana, Geneva, tahoma,sans-serif;
+    }
+
+    iframe{
+        margin: center;
+        width: 150px;
+        height: 150px;
+    }
+}
